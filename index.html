@@ -26,8 +26,6 @@
         .price {
             font-weight: bold;/
         }
-
-    
     </style>
 
 </head>
@@ -142,7 +140,24 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card product-card" data-toggle="modal" data-target="#productModal6">
+                    <img src="https://shop.yamaha-motor-india.com/cdn/shop/files/Racing-Blue_800x.webp?v=1704789964"
+                        class="card-img-top" alt="Product 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Yamaha R15</h5>
+                        <p class="card-text">The Yamaha R15 combines advanced aerodynamics with cutting-edge technology,
+                            delivering outstanding performance and style for sports enthusiasts.</p>
+                        <p class="price">₹1.87 lakh</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
+    </div>
     </div>
 
     <!-- Product Modals -->
@@ -245,12 +260,15 @@
             </div>
         </div>
     </div>
+
+
+    <!-- Product Modals -->
     <div class="modal fade" id="productModal5" tabindex="-1" role="dialog" aria-labelledby="productModalLabel5"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="productModalLabel5">Triumph scrambler</h5>
+                    <h5 class="modal-title" id="productModalLabel5">Triumph Scrambler</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
@@ -270,6 +288,31 @@
         </div>
     </div>
 
+    <div class="modal fade" id="productModal6" tabindex="-1" role="dialog" aria-labelledby="productModalLabel6"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productModalLabel6">Yamaha R15</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="https://shop.yamaha-motor-india.com/cdn/shop/files/Racing-Blue_800x.webp?v=1704789964"
+                        class="img-fluid" alt="Product 6">
+                    <p>The Yamaha R15 combines advanced aerodynamics with cutting-edge technology, delivering
+                        outstanding performance and style for sports enthusiasts.</p>
+                    <p class="price">₹1.87 lakh</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Footer -->
     <footer class="bg-light text-center py-3 mt-5">
         <p>© 2024 My Store. All rights reserved.</p>
@@ -279,5 +322,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
